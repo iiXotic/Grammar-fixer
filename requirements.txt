@@ -1,0 +1,6 @@
+customtkinter
+requests
+schedule
+python-dotenv
+appdirs
+watchdog

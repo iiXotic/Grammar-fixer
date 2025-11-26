@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+*.log
+quarantine/
+whitelist.json
+blacklist.json
+quarantine_log.json
