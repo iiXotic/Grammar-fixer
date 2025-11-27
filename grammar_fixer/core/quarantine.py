@@ -2,8 +2,8 @@ import shutil
 import os
 import datetime
 import json
-from file_scanner.utils.config import Config
-from file_scanner.utils.logger import logger
+from grammar_fixer.utils.config import Config
+from grammar_fixer.utils.logger import logger
 
 class QuarantineManager:
     def __init__(self):

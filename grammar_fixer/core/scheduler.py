@@ -1,8 +1,8 @@
 import schedule
 import time
 import threading
-from file_scanner.core.scanner import Scanner
-from file_scanner.utils.logger import logger
+from grammar_fixer.core.scanner import Scanner
+from grammar_fixer.utils.logger import logger
 
 class ScanScheduler:
     def __init__(self):

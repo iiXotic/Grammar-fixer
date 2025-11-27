@@ -1,7 +1,7 @@
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import time
-from file_scanner.utils.logger import logger
+from grammar_fixer.utils.logger import logger
 
 class RealTimeHandler(FileSystemEventHandler):
     def __init__(self, scanner_callback):

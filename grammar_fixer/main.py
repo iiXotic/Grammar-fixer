@@ -1,4 +1,4 @@
-from file_scanner.ui.app import App
+from grammar_fixer.ui.app import App
 
 def main():
     app = App()

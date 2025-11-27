@@ -2,9 +2,9 @@ import customtkinter as ctk
 from tkinter import filedialog, messagebox
 import threading
 import os
-from file_scanner.core.scanner import Scanner
-from file_scanner.core.quarantine import QuarantineManager
-from file_scanner.core.monitor import FolderMonitor
+from grammar_fixer.core.scanner import Scanner
+from grammar_fixer.core.quarantine import QuarantineManager
+from grammar_fixer.core.monitor import FolderMonitor
 
 class ScanFrame(ctk.CTkFrame):
     def __init__(self, master, **kwargs):
@@ -181,7 +181,7 @@ class ScanFrame(ctk.CTkFrame):
             messagebox.showerror("Error", msg)
 
     def whitelist_file(self, path, frame):
-        from file_scanner.utils.config import Config
+        from grammar_fixer.utils.config import Config
         Config.add_to_whitelist(path)
         frame.destroy()
         messagebox.showinfo("Success", f"File added to whitelist.\n{path}")
