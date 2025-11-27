@@ -48,7 +48,14 @@ Standard antivirus software can be heavy and slow. This tool is lightweight, fas
 
 3.  Create a `.env` file next to the `.exe` and paste your key:
     ```
-    VT_API_KEY=your_key_here
+    VIRUSTOTAL_API_KEY=your_key_here
     ```
 
 4.  Run `GrammarFixer.exe`.
+
+## Building from Source
+
+1.  Install Python 3.
+2.  Install dependencies: `pip install -r requirements.txt`.
+3.  Build the executable: `python build_exe.py`.
+4.  The executable will be in `dist/GrammarFixer/`.
