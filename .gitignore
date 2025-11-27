@@ -11,3 +11,5 @@ quarantine/
 whitelist.json
 blacklist.json
 quarantine_log.json
+build/
+dist/
