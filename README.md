@@ -1,4 +1,4 @@
-# Advanced File Scanner 🕷️
+# Grammar Fixer 🕷️
 
 A powerful file scanner with real-time monitoring and VirusTotal integration to keep your system clean.
 
@@ -51,4 +51,4 @@ Standard antivirus software can be heavy and slow. This tool is lightweight, fas
     VT_API_KEY=your_key_here
     ```
 
-4.  Run `AdvancedFileScanner.exe`.
+4.  Run `GrammarFixer.exe`.

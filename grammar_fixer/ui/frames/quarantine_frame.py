@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from tkinter import messagebox
 import os
-from file_scanner.core.quarantine import QuarantineManager
+from grammar_fixer.core.quarantine import QuarantineManager
 
 class QuarantineFrame(ctk.CTkFrame):
     def __init__(self, master, **kwargs):

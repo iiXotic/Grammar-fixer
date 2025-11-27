@@ -1,8 +1,8 @@
 import os
 import threading
-from file_scanner.utils.config import Config
-from file_scanner.utils.logger import logger
-from file_scanner.integrations.virustotal import VirusTotalClient
+from grammar_fixer.utils.config import Config
+from grammar_fixer.utils.logger import logger
+from grammar_fixer.integrations.virustotal import VirusTotalClient
 
 class Scanner:
     def __init__(self):

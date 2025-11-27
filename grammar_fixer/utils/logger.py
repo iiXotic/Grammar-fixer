@@ -2,7 +2,7 @@ import logging
 import sys
 import os
 
-def setup_logger(name="FileScanner", log_file="scanner.log", level=logging.INFO):
+def setup_logger(name="GrammarFixer", log_file="scanner.log", level=logging.INFO):
     """Sets up a logger with console and file handlers."""
     
     # Create logs directory if it doesn't exist

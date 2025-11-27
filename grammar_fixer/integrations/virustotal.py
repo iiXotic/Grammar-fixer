@@ -2,8 +2,8 @@ import requests
 import hashlib
 import time
 import os
-from file_scanner.utils.config import Config
-from file_scanner.utils.logger import logger
+from grammar_fixer.utils.config import Config
+from grammar_fixer.utils.logger import logger
 
 class VirusTotalClient:
     BASE_URL = "https://www.virustotal.com/api/v3"

@@ -2,8 +2,8 @@ import customtkinter as ctk
 from tkinter import messagebox
 import os
 import json
-from file_scanner.utils.config import Config
-from file_scanner.core.scheduler import ScanScheduler
+from grammar_fixer.utils.config import Config
+from grammar_fixer.core.scheduler import ScanScheduler
 
 class SettingsFrame(ctk.CTkFrame):
     def __init__(self, master, **kwargs):
