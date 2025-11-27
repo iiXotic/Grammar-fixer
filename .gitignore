@@ -11,3 +11,8 @@ quarantine/
 whitelist.json
 blacklist.json
 quarantine_log.json
+
+# PyInstaller
+dist/
+build/
+*.spec
